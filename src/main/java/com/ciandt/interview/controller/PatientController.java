@@ -13,7 +13,7 @@ public class PatientController {
 
   @GetMapping("/patient")
   public String get() {
-    return patientService.getPatientId();
+    return patientService.getPatientId() + "\n";
   }
 
   @Inject
