@@ -22,6 +22,7 @@ class InterviewApplicationTests {
         .matches("https://shorter.url/[a-zA-Z0-1]{5}");
   }
 
+//  STEP 2
 //
 //  @ParameterizedTest
 //  @ValueSource(strings = {
@@ -36,23 +37,6 @@ class InterviewApplicationTests {
 //    Assertions.assertThat(shortUrl)
 //      .startsWith("https://shorter.url/")
 //        .matches("https://shorter.url/[a-zA-Z0-1]{8}");
-//  }
-
-
-
-//  @ParameterizedTest
-//  @CsvSource({
-//      "https://ciandt.com, https://shorter.url/db77c530",
-//      "https://ciandt.com/en, https://shorter.url/db77c530",
-//      "https://ciandt.com/pt, https://shorter.url/c33f30ca",
-//      "https://linkedin.com, https://shorter.url/f1da69f2",
-//  })
-//  void shouldBeAbleToReturnToOriginalUrl(String inputUrl, String shorterUrl) {
-//    var shortUrl = InterviewApplication.generateShortUrl(inputUrl, 8);
-//    Assertions.assertThat(shortUrl).isEqualTo(shorterUrl);
-//
-//    var original = InterviewApplication.getOriginalUrl(shortUrl);
-//    Assertions.assertThat(original).isEqualTo(inputUrl);
 //  }
 
 
