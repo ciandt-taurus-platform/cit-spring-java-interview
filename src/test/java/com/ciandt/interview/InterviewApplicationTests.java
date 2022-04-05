@@ -20,7 +20,7 @@ class InterviewApplicationTests {
     var shortUrl = InterviewApplication.generateShortUrl(inputUrl);
     Assertions.assertThat(shortUrl)
         .startsWith("https://shorter.url/")
-        .matches("https://shorter.url/[a-zA-Z0-1]{5}");
+        .matches("https://shorter.url/[a-zA-Z0-9]{5}");
   }
 
 //  STEP 2
@@ -37,7 +37,7 @@ class InterviewApplicationTests {
 //    var shortUrl = InterviewApplication.generateShortUrl(inputUrl, 8);
 //    Assertions.assertThat(shortUrl)
 //      .startsWith("https://shorter.url/")
-//        .matches("https://shorter.url/[a-zA-Z0-1]{8}");
+//        .matches("https://shorter.url/[a-zA-Z0-9]{8}");
 //  }
 
 
@@ -55,7 +55,7 @@ class InterviewApplicationTests {
 //    var shortUrl = InterviewApplication.generateShortUrl(inputUrl);
 //    Assertions.assertThat(shortUrl)
 //        .startsWith("https://shorter.url/")
-//        .matches("https://shorter.url/[a-zA-Z0-1]{5}");
+//        .matches("https://shorter.url/[a-zA-Z0-9]{5}");
 //
 //
 //    var original = InterviewApplication.getOriginalUrl(shortUrl);
