@@ -33,7 +33,7 @@ class InterviewApplicationTests {
 //      "https://linkedin.com",
 //      "https://msn.com",
 //  })
-//  void shouldShortToParameterizeLenghtChars(String inputUrl, String shorterUrl) {
+//  void shouldShortToParameterizeLenghtChars(String inputUrl) {
 //    var shortUrl = InterviewApplication.generateShortUrl(inputUrl, 8);
 //    Assertions.assertThat(shortUrl)
 //      .startsWith("https://shorter.url/")
