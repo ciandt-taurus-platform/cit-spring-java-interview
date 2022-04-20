@@ -76,7 +76,7 @@ class InterviewApplicationTests {
 //  STEP 4
 //
 //  @Test
-//  void shouldBeAbleToCountHitsToOriginalUrl() {
+//  void shouldBeAbleToCountHitsFromShortUrl() {
 //    var random = new Random();
 //
 //    var urls = List.of(
